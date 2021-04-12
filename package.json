@@ -1,0 +1,20 @@
+{
+  "name": "SDV503-Lab-Six-AaronHemi-MattBurton",
+  "version": "1.0.0",
+  "description": "Lab Six Pair coding assessment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattburt36/SDV503-Lab-Six-AaronHemi-MattBurton.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattburt36/SDV503-Lab-Six-AaronHemi-MattBurton/issues"
+  },
+  "homepage": "https://github.com/mattburt36/SDV503-Lab-Six-AaronHemi-MattBurton#readme"
+}
