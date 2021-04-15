@@ -6,7 +6,7 @@
 // - Create an array which recieves an object and produce a subtraction of the 
 //   values assigned to two elements declared within the object 
 
-
+// Task 1 
 //-------------------------------------------
 // A function which is passed an integer and 
 // returns the sum of all odd numbers below
@@ -39,7 +39,7 @@ function addOddNumbers(a)
 console.log(addOddNumbers(5))  //-> 9  // 1 + 3 + 5 = 9
 console.log(addOddNumbers(13)) //-> 49 // 1 + 3 + 5 + 7 + 9 + 11 + 13 = 49
 
-
+// Task 3
 //-------------------------------------------
 // A function which is passed an object and 
 // produces a subtracted value based on the 
