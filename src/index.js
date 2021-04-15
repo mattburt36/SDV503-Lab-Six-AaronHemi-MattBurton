@@ -38,3 +38,19 @@ function addOddNumbers(a)
 
 console.log(addOddNumbers(5))  //-> 9  // 1 + 3 + 5 = 9
 console.log(addOddNumbers(13)) //-> 49 // 1 + 3 + 5 + 7 + 9 + 11 + 13 = 49
+
+
+//-------------------------------------------
+// A function which is passed an object and 
+// produces a subtracted value based on the 
+// values associated with "likes" and
+// "dislikes"
+//-------------------------------------------
+function getCount(obj)
+ {
+    return obj.likes - obj.dislikes
+ }
+
+ console.log(getCount(counts={ likes: 13, dislikes: 0}))// -> 13
+ console.log(getCount({ likes: 2, dislikes: 23 }))// -> -21
+ console.log(getCount({ likes: 100, dislikes: 100 }))// -> 0
