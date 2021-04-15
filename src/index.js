@@ -39,6 +39,19 @@ function addOddNumbers(a)
 console.log(addOddNumbers(5))  //-> 9  // 1 + 3 + 5 = 9
 console.log(addOddNumbers(13)) //-> 49 // 1 + 3 + 5 + 7 + 9 + 11 + 13 = 49
 
+// Task 2
+//-------------------------------------------
+// A function which is passed an array mixed
+// with integers and strings and produces a 
+// new array which contains only integers 
+//-------------------------------------------
+function filterArr(arr)                                         
+{
+    return arr.filter(x => typeof x === "number")
+}
+console.log(filterArr([1, 2, "a", "b"]))
+console.log(filterArr([1, 2, "aasf", "1", "123", 123]))
+
 // Task 3
 //-------------------------------------------
 // A function which is passed an object and 
